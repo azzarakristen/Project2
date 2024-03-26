@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'SK Pupok Solid';
+    src: url('SKPupok-Solid.woff2') format('woff2'),
+        url('SKPupok-Solid.woff') format('woff'),
+        url('SKPupok-Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

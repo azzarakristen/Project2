@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'SK Pupok Solid';
+    src: url('SKPupok-Solid.woff2') format('woff2'),
+        url('SKPupok-Solid.woff') format('woff'),
+        url('SKPupok-Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+ h1 {
+    font-family: 'SK Pupok Solid';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #284729;
+    color: white;
+    position: absolute;
+    transform: translateY(-200px);
+    font-size: 105px;
+
+}
+
+.frontpage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.frontpage img {
+   transform: scale(.32);
+   
+}
+.frontpage p {
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    position: absolute;
+    max-width: 35%;
+    color: white;
+    font-size: 22px;
+    transform: translateY(150px);
+    text-align: justify;
+}
+
+ .data-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 170px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.data-item {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.data-item:nth-child(2n) {
+    top: 200px;
+}
+
+
+
+.text-content {
+    position: relative;
+    
+ 
+    
+}
+
+
+
+.name {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'SK Pupok Solid';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; */
+    color: #284729;
+    /* text-align: center; */
+
+}
+
+.name::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+p {
+    margin: 0;
+    font-size: 22px;
+    text-align: right;
+    font-family: arial;
+
+
+}
+
+
+
+.data-item:nth-child(2n) p{
+    text-align: left
+}
+
+.picture-container {
+    position: relative;
+    width: fit-content;
+}
+
+.picture-container img{
+    max-width: 100%; 
+    height: auto; 
+    position: relative;
+}
+
+.version-one {
+    opacity: 1;
+    z-index: 2;
+    top: -20px;
+}
+.version-two {
+    margin-top: -100%;
+    z-index: 1;
+    top: -39px;
+}
+
+.version-one:hover::after {
+    opacity: 0;
+}
+
+.version-one:hover {
+    opacity: 0;
+}
+
+
+.detail-text {
+    position: relative;
+    top: -20px;
+    font-style: italic;
+   
+    
+}
+
+@media screen and (max-width: 500px){
+.data-container {
+    display: block;
+    /* grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 25px;
+    margin-left: 60px;
+    margin-right: 60px; */
+}
+}
