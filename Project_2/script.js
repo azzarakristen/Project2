@@ -44,6 +44,8 @@ const data = [
         "ascent": 2535,
         "route": 10.4,
         "difficulty": 4,
+        "picture": "images/whiteface.jpg",
+        "topo": "images/whitefacetopo.png",
 
     },
     {
@@ -52,6 +54,8 @@ const data = [
         "ascent": 2800,
         "route": 13.2,
         "difficulty": 7,
+        "picture": "images/dix.jpg",
+        "topo": "images/dixtopo.png",
 
     },
     {
@@ -60,14 +64,18 @@ const data = [
         "ascent": 4178,
         "route": 16,
         "difficulty": 7,
+        "picture": "images/gray.jpg",
+        "topo": "images/graytopo.png",
 
     },
     {
-        "name": "IRIQUOIS PEAK",
+        "name": "IROQUOIS PEAK",
         "elevation": 4840,
         "ascent": 3250,
         "route": 11.6,
         "difficulty": 6,
+        "picture": "images/iroquois.jpg",
+        "topo": "images/iroquoistopo.jpg",
 
     },
     {
@@ -76,6 +84,8 @@ const data = [
         "ascent": 3650,
         "route": 16.5,
         "difficulty": 6,
+        "picture": "images/basin.jpg",
+        "topo": "images/basintopo.png",
 
     },
     {
@@ -84,6 +94,8 @@ const data = [
         "ascent": 4070,
         "route": 10,
         "difficulty": 5,
+        "picture": "images/gothics.jpg",
+        "topo": "images/gothicstopo.png",
 
     },
     {
@@ -92,6 +104,8 @@ const data = [
         "ascent": 2850,
         "route": 15.2,
         "difficulty": 5,
+        "picture": "images/colden.jpg",
+        "topo": "images/coldentopo.png",
         
     },
     {

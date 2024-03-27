@@ -23,8 +23,7 @@
 }
 
 .frontpage {
-    width: 100vw;
-    height: 100vh;
+    
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -42,12 +41,13 @@
     font-size: 22px;
     transform: translateY(150px);
     text-align: justify;
+    top: 200px;
 }
 
  .data-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 170px;
+    grid-column-gap: 100px;
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -55,14 +55,12 @@
 .data-item {
     position: relative;
     width: 100%;
-    padding: 20px;
+    max-width: 100%;
     background-size: cover;
     background-position: center;
 }
 
-.data-item:nth-child(2n) {
-    top: 200px;
-}
+
 
 
 
@@ -86,7 +84,8 @@
     /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white; */
     color: #284729;
-    /* text-align: center; */
+    text-align: right;
+    top: 25px;
 
 }
 
@@ -103,16 +102,17 @@
 p {
     margin: 0;
     font-size: 22px;
-    text-align: right;
+    text-align: left;
     font-family: arial;
-
+    position: relative;
+    top: -35px;
 
 }
 
 
 
 .data-item:nth-child(2n) p{
-    text-align: left
+    text-align: right
 }
 
 .picture-container {
@@ -124,6 +124,7 @@ p {
     max-width: 100%; 
     height: auto; 
     position: relative;
+    transform: scale(.9)
 }
 
 .version-one {
@@ -154,12 +155,49 @@ p {
     
 }
 
-@media screen and (max-width: 500px){
-.data-container {
-    display: block;
-    /* grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 25px;
-    margin-left: 60px;
-    margin-right: 60px; */
+@media screen and (max-width: 800px){
+    .data-container {
+        display: block;
+        margin-left: 0; /* Adjust margin if necessary */
+        margin-right: 0; /* Adjust margin if necessary */
+    }
+
+    .data-item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .name, .detail-text {
+        text-align: left;
+    }
+
+
+    .frontpage p{
+        font-size: 13px;
+        max-width: 50%;
+      
+    }
+    h1 {
+        font-size: 55px;
+
+    }
+    .frontpage img {
+        
+        height: 1000px;
+        width: auto;
+    }
+
+
+    
 }
+
+@media screen and (min-width: 800px) {
+    .data-item:nth-child(2n) {
+        top: 200px;
+    
+    }
+    .frontpage {
+        width: 100vw;
+     height: 100vh;
+    }
 }
