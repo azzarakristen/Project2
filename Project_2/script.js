@@ -124,6 +124,8 @@ const data = [
         "ascent": 4050,
         "route": 12.6,
         "difficulty": 5,
+        "picture": "images/nippletop.jpg",
+        "topo": "images/nippletoptopo.png",
     
     },
     {
@@ -132,6 +134,8 @@ const data = [
         "ascent": 2860,
         "route": 11.4,
         "difficulty": 5,
+        "picture": "images/santanoni.jpg",
+        "topo": "images/santanonitopo.png",
 
     },
     {
@@ -140,6 +144,8 @@ const data = [
         "ascent": 3225,
         "route": 17.5,
         "difficulty": 6,
+        "picture": "images/redfield.jpg",
+        "topo": "images/redfieldtopo.png",
 
     },
     {
@@ -148,6 +154,8 @@ const data = [
         "ascent": 2400,
         "route": 7,
         "difficulty": 4,
+        "picture": "images/wright.jpg",
+        "topo": "images/wrighttopo.png",
 
     },
     {
@@ -156,6 +164,8 @@ const data = [
         "ascent": 2990,
         "route": 13.4, 
         "difficulty": 5,
+        "picture": "images/saddleback.jpg",
+        "topo": "images/saddlebacktopo.png",
     
     },
     {
@@ -164,6 +174,8 @@ const data = [
         "ascent": 3762,
         "route": 12,
         "difficulty": 6,
+        "picture": "images/panther.jpg",
+        "topo": "images/panthertopo.png",
 
     },
     {
@@ -172,6 +184,8 @@ const data = [
         "ascent": 3660,
         "route": 10,
         "difficulty": 5,
+        "picture": "images/tabletop.jpg",
+        "topo": "images/tabletoptopo.png",
 
     },
     {
@@ -180,6 +194,8 @@ const data = [
         "ascent": 4500,
         "route": 13.4,
         "difficulty": 5,
+        "picture": "images/rockypeakridge.jpg",
+        "topo": "images/rockypeakridgetopo.png",
 
     },
     {
@@ -188,6 +204,8 @@ const data = [
         "ascent": 2344,
         "route": 8.4,
         "difficulty": 5,
+        "picture": "images/macomb.jpg",
+        "topo": "images/macombtopo.png",
 
     },
     {
@@ -196,6 +214,8 @@ const data = [
         "ascent": 3734,
         "route": 12.7,
         "difficulty": 5,
+        "picture": "images/armstrong.jpg",
+        "topo": "images/armstrongtopo.png",
 
     },
     {
@@ -204,6 +224,8 @@ const data = [
         "ascent": 3200,
         "route": 13.7,
         "difficulty": 6,
+        "picture": "images/hough.jpg",
+        "topo": "images/houghtopo.png",
 
     },
     {
@@ -212,6 +234,8 @@ const data = [
         "ascent": 3490,
         "route": 16,
         "difficulty": 7,
+        "picture": "images/seward.jpg",
+        "topo": "images/sewardtopo.png",
     
     },
     {
@@ -220,6 +244,8 @@ const data = [
         "ascent": 2575,
         "route": 14,
         "difficulty": 6,
+        "picture": "images/marshall.jpg",
+        "topo": "images/marshalltopo.png",
 
     },
     {
@@ -228,6 +254,8 @@ const data = [
         "ascent": 2540,
         "route": 16.2,
         "difficulty": 7,
+        "picture": "images/allen.jpg",
+        "topo": "images/allentopo.png",
 
     },
     {
@@ -236,6 +264,8 @@ const data = [
         "ascent": 2800,
         "route": 9.4,
         "difficulty": 4,
+        "picture": "images/bigslide.jpg",
+        "topo": "images/bigslidetopo.png",
 
     },
     {
@@ -244,6 +274,8 @@ const data = [
         "ascent": 3020,
         "route": 9.4,
         "difficulty": 4,
+        "picture": "images/esther.jpg",
+        "topo": "images/esthertopo.png",
 
     },
     {
@@ -252,6 +284,8 @@ const data = [
         "ascent": 3619,
         "route": 12.7,
         "difficulty": 5,
+        "picture": "images/upper.jpg",
+        "topo": "images/uppertopo.png",
     
     },
     {
@@ -260,6 +294,8 @@ const data = [
         "ascent": 2825,
         "route": 8.7,
         "difficulty": 4,
+        "picture": "images/lower.jpg",
+        "topo": "images/lowertopo.png",
 
     },
     {
@@ -268,6 +304,8 @@ const data = [
         "ascent": 2115,
         "route": 8.8,
         "difficulty": 6,
+        "picture": "images/streetandnye.jpg",
+        "topo": "images/streettopo.png",
 
     },
     {
@@ -276,14 +314,18 @@ const data = [
         "ascent": 1982,
         "route": 8.8,
         "difficulty": 5,
+        "picture": "images/phelps.jpg",
+        "topo": "images/phelpstopo.png",
     
     },
     {
-        "name": "MOUNT DONALDSON",
+        "name": "DONALDSON MOUNTAIN",
         "elevation": 4140,
         "ascent": 3490,
         "route": 17,
         "difficulty": 7,
+        "picture": "images/donaldson.jpg",
+        "topo": "images/donaldsontopo.png",
     
     },
     {
@@ -292,6 +334,8 @@ const data = [
         "ascent": 2370,
         "route": 14,
         "difficulty": 6,
+        "picture": "images/seymour.jpg",
+        "topo": "images/seymourtopo.png",
 
     },
     {
@@ -300,6 +344,8 @@ const data = [
         "ascent": 2975,
         "route": 11.8,
         "difficulty": 4,
+        "picture": "images/sawteeth.jpg",
+        "topo": "images/sawteethtopo.png",
 
     },
     {
@@ -308,6 +354,8 @@ const data = [
         "ascent": 1940,
         "route": 4.8,
         "difficulty": 2,
+        "picture": "images/cascade.jpg",
+        "topo": "images/cascadetopo.png",
 
     },
     {
@@ -316,6 +364,8 @@ const data = [
         "ascent": 3050,
         "route": 11.5,
         "difficulty": 6,
+        "picture": "images/southdix.jpg",
+        "topo": "images/southdixtopo.png",
 
     },
     {
@@ -324,6 +374,8 @@ const data = [
         "ascent": 2700,
         "route": 7.6,
         "difficulty": 3,
+        "picture": "images/porter.jpg",
+        "topo": "images/portertopo.png",
 
     },
     {
@@ -332,6 +384,8 @@ const data = [
         "ascent": 2130,
         "route": 10.8,
         "difficulty": 4,
+        "picture": "images/colvin.jpg",
+        "topo": "images/colvintopo.png",
 
     },
     {
@@ -340,6 +394,8 @@ const data = [
         "ascent": 3490,
         "route": 18,
         "difficulty": 7,
+        "picture": "images/emmons.jpg",
+        "topo": "images/emmonstopo.png",
 
     },
     {
@@ -348,6 +404,8 @@ const data = [
         "ascent": 3450,
         "route": 10,
         "difficulty": 5,
+        "picture": "images/dial.jpg",
+        "topo": "images/dialtopo.png",
 
     },
     {
@@ -356,14 +414,18 @@ const data = [
         "ascent": 3002,
         "route": 12.5,
         "difficulty": 6,
+        "picture": "images/grace.jpg",
+        "topo": "images/gracetopo.png",
 
     },
     {
-        "name": "BLAKE",
+        "name": "BLAKE PEAK",
         "elevation": 3960,
         "ascent": 3270,
         "route": 13.6,
         "difficulty": 4,
+        "picture": "images/blake.jpg",
+        "topo": "images/blaketopo.png",
     
     },
     {
@@ -372,6 +434,8 @@ const data = [
         "ascent": 2160,
         "route": 17.2,
         "difficulty": 7,
+        "picture": "images/cliff.jpg",
+        "topo": "images/clifftopo.png",
         
     },
     {
@@ -380,6 +444,8 @@ const data = [
         "ascent": 1844,
         "route": 7.5,
         "difficulty": 6,
+        "picture": "images/streetandnye.jpg",
+        "topo": "images/nyetopo.png",
         
     },
     {
@@ -388,6 +454,8 @@ const data = [
         "ascent": 3140,
         "route": 15,
         "difficulty": 6,
+        "picture": "images/couch.jpg",
+        "topo": "images/couchtopo.png",
     
     }
     
@@ -405,63 +473,25 @@ const init = function() {
     })
 }
 
-const buildDataItem = function(kristen) {
-// creating data item div.
+const buildDataItem = function (kristen) {
     const dataItem = document.createElement('div');
     dataItem.classList.add('data-item');
-
-// creating text content div.
-    const textContent = document.createElement('div');
-    textContent.classList.add('text-content');
-
-// creating detail text div to go inside text content.
-    const detailText = document.createElement('div');
-    detailText.classList.add('detail-text');
-
-// creating picture container to hold image and topo and to go inside text content
-    const pictureContainer = document.createElement('div');
-    pictureContainer.classList.add('picture-container');
-
-// creating the elements 
-    const image = document.createElement('img');
-    image.src = kristen.picture;
-    image.alt = kristen.name;
-    image.classList.add('version-one');
-
-    const topo = document.createElement('img');
-    topo.src = kristen.topo;
-    topo.classList.add('version-two');
-    
-
-    const name = document.createElement('p');
-    name.classList.add('name');
-    name.textContent = kristen.name;
-
-    const elevation = document.createElement('p');
-    elevation.textContent = `Elevation: ${kristen.elevation} ft`;
-
-    const ascent = document.createElement('p');
-    ascent.textContent = `Ascent: ${kristen.ascent} ft`;
-
-    const route = document.createElement('p');
-    route.textContent = `Route: ${kristen.route} miles`;
-
-    const difficulty = document.createElement('p');
-    difficulty.textContent = `Difficulty: ${kristen.difficulty}`;
-
-    // Append things to respective containers
-    dataItem.appendChild(textContent);
-    textContent.appendChild(name);
-    textContent.appendChild(pictureContainer);
-    pictureContainer.appendChild(image);
-    pictureContainer.appendChild(topo);
-    textContent.appendChild(detailText);
-    detailText.appendChild(elevation);
-    detailText.appendChild(ascent);
-    detailText.appendChild(route);
-    detailText.appendChild(difficulty);
-    textContent.insertBefore(pictureContainer, detailText)
-   
-    
+    dataItem.innerHTML = `
+        <div class="text-content">
+            <p class="name">${kristen.name}</p>
+            <div class="picture-container">
+                <img src="${kristen.picture}" alt="${kristen.name}" class="version-one" />
+                <div class="topo-map">
+                    <img src="${kristen.topo}" class="version-two" />
+                </div>
+            </div>
+            <div class="detail-text">
+                <p>elevation: ${kristen.elevation} ft</p>
+                <p>ascent: ${kristen.ascent} ft</p>
+                <p>route: ${kristen.route} mi</p>
+                <p>difficulty: ${kristen.difficulty}</p>
+            </div>
+        </div>`;
     return dataItem;
-}
+};
+

@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'SK Pupok Solid';
     src: url('SKPupok-Solid.woff2') format('woff2'),
@@ -23,18 +24,20 @@
 }
 
 .frontpage {
-    
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
 .frontpage img {
    transform: scale(.32);
+   border-radius: 25px;
    
 }
 .frontpage p {
-    font-family: "miller-text", serif;
-    font-weight: 400;
+    /* font-family: "miller-text", serif;
+    font-weight: 400; */
+    font-family: arial;
+   
     position: absolute;
     max-width: 35%;
     color: white;
@@ -45,19 +48,25 @@
 }
 
  .data-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 100px;
-    margin-left: 60px;
-    margin-right: 60px;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: 0 auto;
+
 }
 
 .data-item {
     position: relative;
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
+    position: relative;
+    width: calc( 50% - 65px);
+    max-width: 50%;
     background-size: cover;
     background-position: center;
+
 }
 
 
@@ -85,7 +94,9 @@
     -webkit-text-stroke-color: white; */
     color: #284729;
     text-align: right;
-    top: 25px;
+    top: 40px;
+    z-index: 3;
+
 
 }
 
@@ -105,7 +116,8 @@ p {
     text-align: left;
     font-family: arial;
     position: relative;
-    top: -35px;
+    
+    /* top: -35px; */
 
 }
 
@@ -113,6 +125,9 @@ p {
 
 .data-item:nth-child(2n) p{
     text-align: right
+}
+.data-item:nth-child(2n) .name{
+    text-align: left
 }
 
 .picture-container {
@@ -123,81 +138,81 @@ p {
 .picture-container img{
     max-width: 100%; 
     height: auto; 
-    position: relative;
-    transform: scale(.9)
+    border-radius: 10px;
+
 }
 
 .version-one {
     opacity: 1;
     z-index: 2;
-    top: -20px;
-}
-.version-two {
-    margin-top: -100%;
-    z-index: 1;
-    top: -39px;
-}
+  }
+  .topo-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 
-.version-one:hover::after {
+  }
+  .topo-map img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+  }
+  
+  .version-one:hover::after {
     opacity: 0;
-}
-
-.version-one:hover {
+  }
+  
+  .version-one:hover {
     opacity: 0;
-}
-
-
-.detail-text {
+  }
+  
+  .detail-text {
     position: relative;
-    top: -20px;
     font-style: italic;
-   
-    
-}
-
-@media screen and (max-width: 800px){
+  }
+  
+  @media screen and (max-width: 800px) {
     .data-container {
         display: block;
-        margin-left: 0; /* Adjust margin if necessary */
-        margin-right: 0; /* Adjust margin if necessary */
-    }
-
-    .data-item {
-        width: 100%;
+        margin: 0 auto;
         max-width: 100%;
     }
-
-    .name, .detail-text {
-        text-align: left;
+  
+    .data-item {
+      width: 100%;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
     }
-
-
-    .frontpage p{
-        font-size: 13px;
-        max-width: 50%;
-      
+  
+    .name,
+    .detail-text {
+      text-align: left;
+    }
+  
+    .frontpage p {
+      font-size: 13px;
+      max-width: 50%;
     }
     h1 {
-        font-size: 55px;
-
+      font-size: 55px;
     }
     .frontpage img {
-        
-        height: 1000px;
-        width: auto;
-    }
-
-
-    
-}
-
-@media screen and (min-width: 800px) {
-    .data-item:nth-child(2n) {
-        top: 200px;
-    
+      height: 1000px;
+      width: auto;
+      
     }
     .frontpage {
-        width: 100vw;
-     height: 100vh;
+        max-width: 100%
     }
-}
+  }
+  
+  @media screen and (min-width: 800px) {
+    .data-item:nth-child(2n) {
+      top: 200px;
+    }
+    .frontpage {
+      height: 100vh;
+    }
+  }
